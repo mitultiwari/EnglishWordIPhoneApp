@@ -1,7 +1,7 @@
 TTalkEnglishWalkEnglish
 v7
 r0
-t337426727.708488
+t337427866.086171
 cCheck dependencies
 cProcessInfoPlistFile /Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator/TalkEnglishWalkEnglish.app/Info.plist TalkEnglishWalkEnglish-Info.plist
 cCompileXIB /Users/agaram/Desktop/TalkEnglishWalkEnglish/MainWindow.xib
@@ -86,9 +86,9 @@ s2522
 i"ButtonTestAppDelegate.h"
 
 N/Users/agaram/Desktop/TalkEnglishWalkEnglish/Classes/Controller.h
-c000000004E6C814100000000000002DC
-t1315733825
-s732
+c000000004E6C854F000000000000033D
+t1315734863
+s829
 i<Foundation/Foundation.h>
 i<AVFoundation/AVFoundation.h>
 i<AVFoundation/AVAudioRecorder.h>
@@ -96,15 +96,15 @@ i<AVFoundation/AVAudioPlayer.h>
 i<CoreAudio/CoreAudioTypes.h>
 
 N/Users/agaram/Desktop/TalkEnglishWalkEnglish/Classes/Controller.m
-c000000004E6C81A0000000000000086D
-t1315733920
-s2157
+c000000004E6C8610000000000000082A
+t1315735056
+s2090
 i"Controller.h"
 
 N/Users/agaram/Desktop/TalkEnglishWalkEnglish/MainWindow.xib
-c000000004E6C7CFF00000000000068EE
-t1315732735
-s26862
+c000000004E6C853E0000000000006C1B
+t1315734846
+s27675
 
 N/Users/agaram/Desktop/TalkEnglishWalkEnglish/TalkEnglishWalkEnglish_Prefix.pch
 c000000004E6C7CFF00000000000000BD
@@ -114,11 +114,11 @@ i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 
 N/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator/TalkEnglishWalkEnglish.app
-t1315733927
-s238
+t1315735066
+s544
 
 N/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator/TalkEnglishWalkEnglish.app.dSYM
-t1315733927
+t1315735066
 s102
 
 N/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator/TalkEnglishWalkEnglish.app/Info.plist
@@ -126,24 +126,24 @@ t1315733222
 s657
 
 N/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator/TalkEnglishWalkEnglish.app/MainWindow.nib
-t1315733222
-s2062
+t1315734849
+s2114
 
 N/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator/TalkEnglishWalkEnglish.app/PkgInfo
 t1315733222
 s8
 
 N/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator/TalkEnglishWalkEnglish.app/TalkEnglishWalkEnglish
-t1315733927
-s18684
+t1315735066
+s18784
 
 N/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/Objects-normal/i386/ButtonTestAppDelegate.o
 t1315733223
 s49444
 
 N/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/Objects-normal/i386/Controller.o
-t1315733927
-s21288
+t1315735066
+s51388
 
 N/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/Objects-normal/i386/TalkEnglishWalkEnglish.LinkFileList
 c000000004E6C7EE600000000000001F1
@@ -171,7 +171,7 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies337426727#337426727#0(0"0(0#1#0"8614027296#0"0#
+lSLF07#2@18"Check dependencies337427865#337427865#0(0"0(0#1#0"8612968960#0"0#
 
 CCompileC build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/Objects-normal/i386/ButtonTestAppDelegate.o /Users/agaram/Desktop/TalkEnglishWalkEnglish/Classes/ButtonTestAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s337426023.633476
@@ -187,8 +187,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@84"Compile /Users/agaram/Desktop/TalkEnglishWalkEnglish/Classes/ButtonTestAppDelegate.m337426023#337426023#0(0"0(0#0#76"/Users/agaram/Desktop/TalkEnglishWalkEnglish/Classes/ButtonTestAppDelegate.m8613998272#2325"    cd /Users/agaram/Desktop/TalkEnglishWalkEnglish    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/agaram/Desktop/TalkEnglishWalkEnglish/build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/TalkEnglishWalkEnglish-generated-files.hmap -I/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/TalkEnglishWalkEnglish-own-target-headers.hmap -I/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/TalkEnglishWalkEnglish-all-target-headers.hmap -iquote /Users/agaram/Desktop/TalkEnglishWalkEnglish/build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/TalkEnglishWalkEnglish-project-headers.hmap -F/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator -I/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator/include -I/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/DerivedSources/i386 -I/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/DerivedSources -include /var/folders/++/++50Ak++6+0++4RjPqRgNE+-kXA/-Caches-/com.apple.Xcode.115251/SharedPrecompiledHeaders/TalkEnglishWalkEnglish_Prefix-gjibqsbguwytfvbwoiljsvdvceov/TalkEnglishWalkEnglish_Prefix.pch -c /Users/agaram/Desktop/TalkEnglishWalkEnglish/Classes/ButtonTestAppDelegate.m -o /Users/agaram/Desktop/TalkEnglishWalkEnglish/build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/Objects-normal/i386/ButtonTestAppDelegate.o0#
 
 CCompileC build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/Objects-normal/i386/Controller.o /Users/agaram/Desktop/TalkEnglishWalkEnglish/Classes/Controller.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s337426727.466098
-e337426727.654871
+s337427865.826031
+e337427866.030602
 r1
 xCompileC
 xbuild/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/Objects-normal/i386/Controller.o
@@ -197,7 +197,9 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/agaram/Desktop/TalkEnglishWalkEnglish/Classes/Controller.m337426727#337426727#0(0"0(0#0#65"/Users/agaram/Desktop/TalkEnglishWalkEnglish/Classes/Controller.m8613576864#2303"    cd /Users/agaram/Desktop/TalkEnglishWalkEnglish    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/agaram/Desktop/TalkEnglishWalkEnglish/build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/TalkEnglishWalkEnglish-generated-files.hmap -I/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/TalkEnglishWalkEnglish-own-target-headers.hmap -I/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/TalkEnglishWalkEnglish-all-target-headers.hmap -iquote /Users/agaram/Desktop/TalkEnglishWalkEnglish/build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/TalkEnglishWalkEnglish-project-headers.hmap -F/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator -I/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator/include -I/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/DerivedSources/i386 -I/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/DerivedSources -include /var/folders/++/++50Ak++6+0++4RjPqRgNE+-kXA/-Caches-/com.apple.Xcode.115251/SharedPrecompiledHeaders/TalkEnglishWalkEnglish_Prefix-gjibqsbguwytfvbwoiljsvdvceov/TalkEnglishWalkEnglish_Prefix.pch -c /Users/agaram/Desktop/TalkEnglishWalkEnglish/Classes/Controller.m -o /Users/agaram/Desktop/TalkEnglishWalkEnglish/build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/Objects-normal/i386/Controller.o0#
+o/Users/agaram/Desktop/TalkEnglishWalkEnglish/Classes/Controller.m:81: warning: property 'recordButton' requires method '-recordButton' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/agaram/Desktop/TalkEnglishWalkEnglish/Classes/Controller.m:81: warning: property 'recordButton' requires the method 'setRecordButton:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@73"Compile /Users/agaram/Desktop/TalkEnglishWalkEnglish/Classes/Controller.m337427865#337427866#0(431"/Users/agaram/Desktop/TalkEnglishWalkEnglish/Classes/Controller.m:81: warning: property 'recordButton' requires method '-recordButton' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/agaram/Desktop/TalkEnglishWalkEnglish/Classes/Controller.m:81: warning: property 'recordButton' requires the method 'setRecordButton:' to be defined - use @synthesize, @dynamic or provide a method implementation2(22@132"Property 'recordButton' requires method '-recordButton' to be defined - use @synthesize, @dynamic or provide a method implementation337427865#0#212#0(6@65"/Users/agaram/Desktop/TalkEnglishWalkEnglish/Classes/Controller.m337427856#81#0#81#0#0"0(22@139"Property 'recordButton' requires the method 'setRecordButton:' to be defined - use @synthesize, @dynamic or provide a method implementation337427865#212#219#0(6@65"/Users/agaram/Desktop/TalkEnglishWalkEnglish/Classes/Controller.m337427856#81#0#81#0#0"0(0#0#65"/Users/agaram/Desktop/TalkEnglishWalkEnglish/Classes/Controller.m8613264672#2303"    cd /Users/agaram/Desktop/TalkEnglishWalkEnglish    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/agaram/Desktop/TalkEnglishWalkEnglish/build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/TalkEnglishWalkEnglish-generated-files.hmap -I/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/TalkEnglishWalkEnglish-own-target-headers.hmap -I/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/TalkEnglishWalkEnglish-all-target-headers.hmap -iquote /Users/agaram/Desktop/TalkEnglishWalkEnglish/build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/TalkEnglishWalkEnglish-project-headers.hmap -F/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator -I/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator/include -I/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/DerivedSources/i386 -I/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/DerivedSources -include /var/folders/++/++50Ak++6+0++4RjPqRgNE+-kXA/-Caches-/com.apple.Xcode.115251/SharedPrecompiledHeaders/TalkEnglishWalkEnglish_Prefix-gjibqsbguwytfvbwoiljsvdvceov/TalkEnglishWalkEnglish_Prefix.pch -c /Users/agaram/Desktop/TalkEnglishWalkEnglish/Classes/Controller.m -o /Users/agaram/Desktop/TalkEnglishWalkEnglish/build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/Objects-normal/i386/Controller.o0#
 
 CCompileC build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/Objects-normal/i386/main.o /Users/agaram/Desktop/TalkEnglishWalkEnglish/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s337426023.632124
@@ -213,31 +215,31 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@59"Compile /Users/agaram/Desktop/TalkEnglishWalkEnglish/main.m337426023#337426023#0(0"0(0#0#51"/Users/agaram/Desktop/TalkEnglishWalkEnglish/main.m8613395648#2283"    cd /Users/agaram/Desktop/TalkEnglishWalkEnglish    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/agaram/Desktop/TalkEnglishWalkEnglish/build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/TalkEnglishWalkEnglish-generated-files.hmap -I/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/TalkEnglishWalkEnglish-own-target-headers.hmap -I/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/TalkEnglishWalkEnglish-all-target-headers.hmap -iquote /Users/agaram/Desktop/TalkEnglishWalkEnglish/build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/TalkEnglishWalkEnglish-project-headers.hmap -F/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator -I/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator/include -I/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/DerivedSources/i386 -I/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/DerivedSources -include /var/folders/++/++50Ak++6+0++4RjPqRgNE+-kXA/-Caches-/com.apple.Xcode.115251/SharedPrecompiledHeaders/TalkEnglishWalkEnglish_Prefix-gjibqsbguwytfvbwoiljsvdvceov/TalkEnglishWalkEnglish_Prefix.pch -c /Users/agaram/Desktop/TalkEnglishWalkEnglish/main.m -o /Users/agaram/Desktop/TalkEnglishWalkEnglish/build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/Objects-normal/i386/main.o0#
 
 CCompileXIB /Users/agaram/Desktop/TalkEnglishWalkEnglish/MainWindow.xib
-s337426022.259539
-e337426022.702624
+s337427649.276547
+e337427649.726796
 r1
 xCompileXIB
 x/Users/agaram/Desktop/TalkEnglishWalkEnglish/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib337426022#337426022#0(0"0(0#0#59"/Users/agaram/Desktop/TalkEnglishWalkEnglish/MainWindow.xib31244220638101620#603"    cd /Users/agaram/Desktop/TalkEnglishWalkEnglish    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator/TalkEnglishWalkEnglish.app/MainWindow.nib /Users/agaram/Desktop/TalkEnglishWalkEnglish/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+lSLF07#2@25"CompileXIB MainWindow.xib337427649#337427649#0(0"0(0#0#59"/Users/agaram/Desktop/TalkEnglishWalkEnglish/MainWindow.xib31244220638101620#603"    cd /Users/agaram/Desktop/TalkEnglishWalkEnglish    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator/TalkEnglishWalkEnglish.app/MainWindow.nib /Users/agaram/Desktop/TalkEnglishWalkEnglish/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CGenerateDSYMFile /Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator/TalkEnglishWalkEnglish.app.dSYM /Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator/TalkEnglishWalkEnglish.app/TalkEnglishWalkEnglish
-s337426727.686106
-e337426727.705135
+s337427866.062028
+e337427866.082569
 r1
 xGenerateDSYMFile
 x/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator/TalkEnglishWalkEnglish.app.dSYM
 x/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator/TalkEnglishWalkEnglish.app/TalkEnglishWalkEnglish
-lSLF07#2@154"GenerateDSYMFile build/Debug-iphonesimulator/TalkEnglishWalkEnglish.app.dSYM build/Debug-iphonesimulator/TalkEnglishWalkEnglish.app/TalkEnglishWalkEnglish337426727#337426727#0(0"0(0#0#122"/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator/TalkEnglishWalkEnglish.app/TalkEnglishWalkEnglish8614227392#446"    cd /Users/agaram/Desktop/TalkEnglishWalkEnglish    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator/TalkEnglishWalkEnglish.app/TalkEnglishWalkEnglish -o /Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator/TalkEnglishWalkEnglish.app.dSYM0#
+lSLF07#2@154"GenerateDSYMFile build/Debug-iphonesimulator/TalkEnglishWalkEnglish.app.dSYM build/Debug-iphonesimulator/TalkEnglishWalkEnglish.app/TalkEnglishWalkEnglish337427866#337427866#0(0"0(0#0#122"/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator/TalkEnglishWalkEnglish.app/TalkEnglishWalkEnglish8612850272#446"    cd /Users/agaram/Desktop/TalkEnglishWalkEnglish    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator/TalkEnglishWalkEnglish.app/TalkEnglishWalkEnglish -o /Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator/TalkEnglishWalkEnglish.app.dSYM0#
 
 CLd /Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator/TalkEnglishWalkEnglish.app/TalkEnglishWalkEnglish normal i386
-s337426727.654969
-e337426727.685999
+s337427866.030695
+e337427866.061926
 r1
 xLd
 x/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator/TalkEnglishWalkEnglish.app/TalkEnglishWalkEnglish
 xnormal
 xi386
-lSLF07#2@127"Link /Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator/TalkEnglishWalkEnglish.app/TalkEnglishWalkEnglish337426727#337426727#0(0"0(0#0#0"8614614816#1050"    cd /Users/agaram/Desktop/TalkEnglishWalkEnglish    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator -F/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator -filelist /Users/agaram/Desktop/TalkEnglishWalkEnglish/build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/Objects-normal/i386/TalkEnglishWalkEnglish.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework AVFoundation -framework CoreAudio -o /Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator/TalkEnglishWalkEnglish.app/TalkEnglishWalkEnglish0#
+lSLF07#2@127"Link /Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator/TalkEnglishWalkEnglish.app/TalkEnglishWalkEnglish337427866#337427866#0(0"0(0#0#0"8613176192#1050"    cd /Users/agaram/Desktop/TalkEnglishWalkEnglish    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator -F/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator -filelist /Users/agaram/Desktop/TalkEnglishWalkEnglish/build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/Objects-normal/i386/TalkEnglishWalkEnglish.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework AVFoundation -framework CoreAudio -o /Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator/TalkEnglishWalkEnglish.app/TalkEnglishWalkEnglish0#
 
 CProcessInfoPlistFile /Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator/TalkEnglishWalkEnglish.app/Info.plist TalkEnglishWalkEnglish-Info.plist
 s337426022.239419
@@ -262,10 +264,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@44"Precompile TalkEnglishWalkEnglish_Prefix.pch337426022#337426023#0(0"0(0#0#78"/Users/agaram/Desktop/TalkEnglishWalkEnglish/TalkEnglishWalkEnglish_Prefix.pch8613237568#2154"    cd /Users/agaram/Desktop/TalkEnglishWalkEnglish    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/agaram/Desktop/TalkEnglishWalkEnglish/build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/TalkEnglishWalkEnglish-generated-files.hmap -I/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/TalkEnglishWalkEnglish-own-target-headers.hmap -I/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/TalkEnglishWalkEnglish-all-target-headers.hmap -iquote /Users/agaram/Desktop/TalkEnglishWalkEnglish/build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/TalkEnglishWalkEnglish-project-headers.hmap -F/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator -I/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator/include -I/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/DerivedSources/i386 -I/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/TalkEnglishWalkEnglish.build/Debug-iphonesimulator/TalkEnglishWalkEnglish.build/DerivedSources -c /Users/agaram/Desktop/TalkEnglishWalkEnglish/TalkEnglishWalkEnglish_Prefix.pch -o /var/folders/++/++50Ak++6+0++4RjPqRgNE+-kXA/-Caches-/com.apple.Xcode.115251/SharedPrecompiledHeaders/TalkEnglishWalkEnglish_Prefix-gjibqsbguwytfvbwoiljsvdvceov/TalkEnglishWalkEnglish_Prefix.pch.gch0#
 
 CTouch /Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator/TalkEnglishWalkEnglish.app
-s337426727.705224
-e337426727.708447
+s337427866.082653
+e337427866.086121
 r1
 xTouch
 x/Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator/TalkEnglishWalkEnglish.app
-lSLF07#2@105"Touch /Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator/TalkEnglishWalkEnglish.app337426727#337426727#0(0"0(0#0#0"8614153760#305"    cd /Users/agaram/Desktop/TalkEnglishWalkEnglish    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator/TalkEnglishWalkEnglish.app0#
+lSLF07#2@105"Touch /Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator/TalkEnglishWalkEnglish.app337427866#337427866#0(0"0(0#0#0"8611456864#305"    cd /Users/agaram/Desktop/TalkEnglishWalkEnglish    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/agaram/Desktop/TalkEnglishWalkEnglish/build/Debug-iphonesimulator/TalkEnglishWalkEnglish.app0#
 

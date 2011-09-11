@@ -26,9 +26,6 @@
 
 
 -(IBAction)record:(id)sender {
-	NSLog(@"record");
-	NSLog(@"toggle: %d", recording);
-	
 	AVAudioSession * audioSession = [AVAudioSession sharedInstance];
 	//Setup the audioSession for playback and record. 
 	[audioSession setCategory:AVAudioSessionCategoryPlayAndRecord error: &error];
@@ -36,10 +33,13 @@
 	[audioSession setActive:YES error: &error];
 	
 	if(recording){
+		NSLog(@"Recording stop");
 		recording = NO;
 		[recorder stop];
+		
 	}
 	else{
+		NSLog(@"Recording start");
 		recording = YES;
 		[self startRecording];
 	}
@@ -52,13 +52,11 @@
 	[recordSetting setValue:[NSNumber numberWithInt: 2] forKey:AVNumberOfChannelsKey];
 
 	recordedTmpFile = [NSURL fileURLWithPath:[NSTemporaryDirectory() stringByAppendingPathComponent: [NSString stringWithFormat: @"%.0f.%@", [NSDate timeIntervalSinceReferenceDate] * 1000.0, @"caf"]]];
-	NSLog(@"Using File called: %@",recordedTmpFile);
 
 	recorder = [[ AVAudioRecorder alloc] initWithURL:recordedTmpFile settings:recordSetting error:&error];
 	[recorder setDelegate:self];
 	[recorder prepareToRecord];
 	[recorder record];
-	NSLog(@"Recording");
 }
 
 -(IBAction)play:(id)sender {

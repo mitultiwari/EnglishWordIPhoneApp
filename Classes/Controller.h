@@ -17,6 +17,7 @@
 	AVAudioRecorder * recorder;
 	NSError * error;
 	BOOL recording; // NO => not recording; YES: recording
+	IBOutlet UIButton *recordButton;
 }
 
 -(IBAction)listen:(id)sender;
@@ -24,6 +25,7 @@
 -(IBAction)play:(id)sender;
 
 @property (nonatomic, retain) AVAudioPlayer *avPlayer;
+@property (nonatomic, retain) IBOutlet UIButton *recordButton;
 
 -(void)startRecording;
 -(void)playClip:(NSURL*)filename;
