@@ -10,7 +10,6 @@
 
 @implementation Controller
 
-
 -(IBAction)listen:(id)sender {
 	NSLog(@"listen");
 	NSString *resFilename = @"about.wav";

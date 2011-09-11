@@ -24,7 +24,6 @@
 -(IBAction)record:(id)sender;
 -(IBAction)play:(id)sender;
 
-
 -(void)startRecording;
 -(void)playClip:(NSURL*)filename;
 
