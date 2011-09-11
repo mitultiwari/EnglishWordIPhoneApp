@@ -1,0 +1,271 @@
+TButtonTest
+v7
+r0
+t337425086.846696
+cCheck dependencies
+cProcessInfoPlistFile /Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator/ButtonTest.app/Info.plist ButtonTest-Info.plist
+cCompileXIB /Users/mtiwari/Documents/ButtonTest/MainWindow.xib
+cProcessPCH /var/folders/HA/HAH8diByHPOxmQPK9xhU0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ButtonTest_Prefix-gbaqmojtnhxxaogcocyahcowhruv/ButtonTest_Prefix.pch.gch ButtonTest_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/Objects-normal/i386/main.o /Users/mtiwari/Documents/ButtonTest/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/Objects-normal/i386/ButtonTestAppDelegate.o /Users/mtiwari/Documents/ButtonTest/Classes/ButtonTestAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/Objects-normal/i386/Controller.o /Users/mtiwari/Documents/ButtonTest/Classes/Controller.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator/ButtonTest.app/ButtonTest normal i386
+cGenerateDSYMFile /Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator/ButtonTest.app.dSYM /Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator/ButtonTest.app/ButtonTest
+cTouch /Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator/ButtonTest.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004E489E240000000000000110
+t1313381924
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004CC1288A00000000000F34A0
+t1287727242
+s996512
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVAudioPlayer.h
+c000000004CC12884000000000000145D
+t1287727236
+s5213
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVAudioRecorder.h
+c000000004CC128840000000000000E59
+t1287727236
+s3673
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004CC128840000000000000733
+t1287727236
+s1843
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c000000004CC1220900000000000A8450
+t1287725577
+s689232
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/CoreAudioTypes.h
+c000000004CC12203000000000001032E
+t1287725571
+s66350
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/mtiwari/Documents/ButtonTest/ButtonTest_Prefix.pch
+c000000004E6C6D3F00000000000000BD
+t1315728703
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/mtiwari/Documents/ButtonTest/Classes/ButtonTestAppDelegate.h
+c000000004E6C6D3F0000000000000150
+t1315728703
+s336
+i<UIKit/UIKit.h>
+
+N/Users/mtiwari/Documents/ButtonTest/Classes/ButtonTestAppDelegate.m
+c000000004E6C6D3F00000000000009DA
+t1315728703
+s2522
+i"ButtonTestAppDelegate.h"
+
+N/Users/mtiwari/Documents/ButtonTest/Classes/Controller.h
+c000000004E6C78B400000000000002A4
+t1315731636
+s676
+i<Foundation/Foundation.h>
+i<AVFoundation/AVFoundation.h>
+i<AVFoundation/AVAudioRecorder.h>
+i<AVFoundation/AVAudioPlayer.h>
+i<CoreAudio/CoreAudioTypes.h>
+
+N/Users/mtiwari/Documents/ButtonTest/Classes/Controller.m
+c000000004E6C7B3900000000000008B7
+t1315732281
+s2231
+i"Controller.h"
+
+N/Users/mtiwari/Documents/ButtonTest/MainWindow.xib
+c000000004E6C70B500000000000068EE
+t1315729589
+s26862
+
+N/Users/mtiwari/Documents/ButtonTest/build/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/Objects-normal/i386/ButtonTest.LinkFileList
+c000000004E6C6E0D000000000000018E
+t1315728909
+s398
+
+N/Users/mtiwari/Documents/ButtonTest/build/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/Objects-normal/i386/ButtonTestAppDelegate.o
+t1315728910
+s49428
+
+N/Users/mtiwari/Documents/ButtonTest/build/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/Objects-normal/i386/Controller.o
+t1315732286
+s20716
+
+N/Users/mtiwari/Documents/ButtonTest/build/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/Objects-normal/i386/main.o
+t1315728910
+s6296
+
+N/Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator/ButtonTest.app
+t1315732286
+s238
+
+N/Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator/ButtonTest.app.dSYM
+t1315732286
+s102
+
+N/Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator/ButtonTest.app/ButtonTest
+t1315732286
+s18332
+
+N/Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator/ButtonTest.app/Info.plist
+t1315728909
+s603
+
+N/Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator/ButtonTest.app/MainWindow.nib
+t1315729596
+s2065
+
+N/Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator/ButtonTest.app/PkgInfo
+t1315728909
+s8
+
+N/Users/mtiwari/Documents/ButtonTest/main.m
+c000000004E6C6D3F000000000000016C
+t1315728703
+s364
+i<UIKit/UIKit.h>
+
+N/var/folders/HA/HAH8diByHPOxmQPK9xhU0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ButtonTest_Prefix-gbaqmojtnhxxaogcocyahcowhruv/ButtonTest_Prefix.pch.gch
+t1315728910
+s15453392
+
+NButtonTest-Info.plist
+c000000004E6C6D3F000000000000038D
+t1315728703
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies337425086#337425086#0(0"0(0#1#0"8619428992#0"0#
+
+CCompileC build/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/Objects-normal/i386/ButtonTestAppDelegate.o /Users/mtiwari/Documents/ButtonTest/Classes/ButtonTestAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s337421710.823727
+e337421710.900777
+r1
+xCompileC
+xbuild/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/Objects-normal/i386/ButtonTestAppDelegate.o
+x/Users/mtiwari/Documents/ButtonTest/Classes/ButtonTestAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/mtiwari/Documents/ButtonTest/Classes/ButtonTestAppDelegate.m337421710#337421710#0(0"0(0#0#67"/Users/mtiwari/Documents/ButtonTest/Classes/ButtonTestAppDelegate.m8606873120#2176"    cd /Users/mtiwari/Documents/ButtonTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/mtiwari/pkgs/wordnet/WordNet-3.0/installdir/bin/:/opt/jruby/bin:/Users/mtiwari/pkgs/scala/scala-2.9.0.1/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/mtiwari/Documents/ButtonTest/build/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/ButtonTest-generated-files.hmap -I/Users/mtiwari/Documents/ButtonTest/build/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/ButtonTest-own-target-headers.hmap -I/Users/mtiwari/Documents/ButtonTest/build/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/ButtonTest-all-target-headers.hmap -iquote /Users/mtiwari/Documents/ButtonTest/build/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/ButtonTest-project-headers.hmap -F/Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator -I/Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator/include -I/Users/mtiwari/Documents/ButtonTest/build/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/DerivedSources/i386 -I/Users/mtiwari/Documents/ButtonTest/build/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/DerivedSources -include /var/folders/HA/HAH8diByHPOxmQPK9xhU0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ButtonTest_Prefix-gbaqmojtnhxxaogcocyahcowhruv/ButtonTest_Prefix.pch -c /Users/mtiwari/Documents/ButtonTest/Classes/ButtonTestAppDelegate.m -o /Users/mtiwari/Documents/ButtonTest/build/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/Objects-normal/i386/ButtonTestAppDelegate.o0#
+
+CCompileC build/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/Objects-normal/i386/Controller.o /Users/mtiwari/Documents/ButtonTest/Classes/Controller.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s337425086.658338
+e337425086.796925
+r1
+xCompileC
+xbuild/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/Objects-normal/i386/Controller.o
+x/Users/mtiwari/Documents/ButtonTest/Classes/Controller.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/mtiwari/Documents/ButtonTest/Classes/Controller.m337425086#337425086#0(0"0(0#0#56"/Users/mtiwari/Documents/ButtonTest/Classes/Controller.m8609256256#2154"    cd /Users/mtiwari/Documents/ButtonTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/mtiwari/pkgs/wordnet/WordNet-3.0/installdir/bin/:/opt/jruby/bin:/Users/mtiwari/pkgs/scala/scala-2.9.0.1/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/mtiwari/Documents/ButtonTest/build/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/ButtonTest-generated-files.hmap -I/Users/mtiwari/Documents/ButtonTest/build/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/ButtonTest-own-target-headers.hmap -I/Users/mtiwari/Documents/ButtonTest/build/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/ButtonTest-all-target-headers.hmap -iquote /Users/mtiwari/Documents/ButtonTest/build/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/ButtonTest-project-headers.hmap -F/Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator -I/Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator/include -I/Users/mtiwari/Documents/ButtonTest/build/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/DerivedSources/i386 -I/Users/mtiwari/Documents/ButtonTest/build/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/DerivedSources -include /var/folders/HA/HAH8diByHPOxmQPK9xhU0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ButtonTest_Prefix-gbaqmojtnhxxaogcocyahcowhruv/ButtonTest_Prefix.pch -c /Users/mtiwari/Documents/ButtonTest/Classes/Controller.m -o /Users/mtiwari/Documents/ButtonTest/build/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/Objects-normal/i386/Controller.o0#
+
+CCompileC build/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/Objects-normal/i386/main.o /Users/mtiwari/Documents/ButtonTest/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s337421710.819827
+e337421710.880118
+r1
+xCompileC
+xbuild/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/Objects-normal/i386/main.o
+x/Users/mtiwari/Documents/ButtonTest/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/mtiwari/Documents/ButtonTest/main.m337421710#337421710#0(0"0(0#0#42"/Users/mtiwari/Documents/ButtonTest/main.m8613736704#2134"    cd /Users/mtiwari/Documents/ButtonTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/mtiwari/pkgs/wordnet/WordNet-3.0/installdir/bin/:/opt/jruby/bin:/Users/mtiwari/pkgs/scala/scala-2.9.0.1/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/mtiwari/Documents/ButtonTest/build/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/ButtonTest-generated-files.hmap -I/Users/mtiwari/Documents/ButtonTest/build/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/ButtonTest-own-target-headers.hmap -I/Users/mtiwari/Documents/ButtonTest/build/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/ButtonTest-all-target-headers.hmap -iquote /Users/mtiwari/Documents/ButtonTest/build/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/ButtonTest-project-headers.hmap -F/Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator -I/Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator/include -I/Users/mtiwari/Documents/ButtonTest/build/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/DerivedSources/i386 -I/Users/mtiwari/Documents/ButtonTest/build/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/DerivedSources -include /var/folders/HA/HAH8diByHPOxmQPK9xhU0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ButtonTest_Prefix-gbaqmojtnhxxaogcocyahcowhruv/ButtonTest_Prefix.pch -c /Users/mtiwari/Documents/ButtonTest/main.m -o /Users/mtiwari/Documents/ButtonTest/build/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/mtiwari/Documents/ButtonTest/MainWindow.xib
+s337422396.558148
+e337422396.994480
+r1
+xCompileXIB
+x/Users/mtiwari/Documents/ButtonTest/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib337422396#337422396#0(0"0(0#0#50"/Users/mtiwari/Documents/ButtonTest/MainWindow.xib8619239616#757"    cd /Users/mtiwari/Documents/ButtonTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/mtiwari/pkgs/wordnet/WordNet-3.0/installdir/bin/:/opt/jruby/bin:/Users/mtiwari/pkgs/scala/scala-2.9.0.1/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator/ButtonTest.app/MainWindow.nib /Users/mtiwari/Documents/ButtonTest/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CGenerateDSYMFile /Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator/ButtonTest.app.dSYM /Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator/ButtonTest.app/ButtonTest
+s337425086.825027
+e337425086.844059
+r1
+xGenerateDSYMFile
+x/Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator/ButtonTest.app.dSYM
+x/Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator/ButtonTest.app/ButtonTest
+lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/ButtonTest.app.dSYM build/Debug-iphonesimulator/ButtonTest.app/ButtonTest337425086#337425086#0(0"0(0#0#89"/Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator/ButtonTest.app/ButtonTest8621117088#576"    cd /Users/mtiwari/Documents/ButtonTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/mtiwari/pkgs/wordnet/WordNet-3.0/installdir/bin/:/opt/jruby/bin:/Users/mtiwari/pkgs/scala/scala-2.9.0.1/bin"    /Developer/usr/bin/dsymutil /Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator/ButtonTest.app/ButtonTest -o /Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator/ButtonTest.app.dSYM0#
+
+CLd /Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator/ButtonTest.app/ButtonTest normal i386
+s337425086.797052
+e337425086.824925
+r1
+xLd
+x/Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator/ButtonTest.app/ButtonTest
+xnormal
+xi386
+lSLF07#2@94"Link /Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator/ButtonTest.app/ButtonTest337425086#337425086#0(0"0(0#0#0"8621864224#1138"    cd /Users/mtiwari/Documents/ButtonTest    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/mtiwari/pkgs/wordnet/WordNet-3.0/installdir/bin/:/opt/jruby/bin:/Users/mtiwari/pkgs/scala/scala-2.9.0.1/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator -F/Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator -filelist /Users/mtiwari/Documents/ButtonTest/build/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/Objects-normal/i386/ButtonTest.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework AVFoundation -framework CoreAudio -o /Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator/ButtonTest.app/ButtonTest0#
+
+CProcessInfoPlistFile /Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator/ButtonTest.app/Info.plist ButtonTest-Info.plist
+s337421709.670891
+e337421709.675635
+r1
+xProcessInfoPlistFile
+x/Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator/ButtonTest.app/Info.plist
+xButtonTest-Info.plist
+lSLF07#2@29"Process ButtonTest-Info.plist337421709#337421709#0(0"0(0#0#57"/Users/mtiwari/Documents/ButtonTest/ButtonTest-Info.plist8605708160#672"    cd /Users/mtiwari/Documents/ButtonTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/mtiwari/pkgs/wordnet/WordNet-3.0/installdir/bin/:/opt/jruby/bin:/Users/mtiwari/pkgs/scala/scala-2.9.0.1/bin"    builtin-infoPlistUtility ButtonTest-Info.plist -genpkginfo /Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator/ButtonTest.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator/ButtonTest.app/Info.plist0#
+
+CProcessPCH /var/folders/HA/HAH8diByHPOxmQPK9xhU0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ButtonTest_Prefix-gbaqmojtnhxxaogcocyahcowhruv/ButtonTest_Prefix.pch.gch ButtonTest_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s337421710.053182
+e337421710.819685
+r1
+xProcessPCH
+x/var/folders/HA/HAH8diByHPOxmQPK9xhU0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ButtonTest_Prefix-gbaqmojtnhxxaogcocyahcowhruv/ButtonTest_Prefix.pch.gch
+xButtonTest_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile ButtonTest_Prefix.pch337421710#337421710#0(0"0(0#0#57"/Users/mtiwari/Documents/ButtonTest/ButtonTest_Prefix.pch8613368096#2026"    cd /Users/mtiwari/Documents/ButtonTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/mtiwari/pkgs/wordnet/WordNet-3.0/installdir/bin/:/opt/jruby/bin:/Users/mtiwari/pkgs/scala/scala-2.9.0.1/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/mtiwari/Documents/ButtonTest/build/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/ButtonTest-generated-files.hmap -I/Users/mtiwari/Documents/ButtonTest/build/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/ButtonTest-own-target-headers.hmap -I/Users/mtiwari/Documents/ButtonTest/build/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/ButtonTest-all-target-headers.hmap -iquote /Users/mtiwari/Documents/ButtonTest/build/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/ButtonTest-project-headers.hmap -F/Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator -I/Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator/include -I/Users/mtiwari/Documents/ButtonTest/build/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/DerivedSources/i386 -I/Users/mtiwari/Documents/ButtonTest/build/ButtonTest.build/Debug-iphonesimulator/ButtonTest.build/DerivedSources -c /Users/mtiwari/Documents/ButtonTest/ButtonTest_Prefix.pch -o /var/folders/HA/HAH8diByHPOxmQPK9xhU0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ButtonTest_Prefix-gbaqmojtnhxxaogcocyahcowhruv/ButtonTest_Prefix.pch.gch0#
+
+CTouch /Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator/ButtonTest.app
+s337425086.844153
+e337425086.846647
+r1
+xTouch
+x/Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator/ButtonTest.app
+lSLF07#2@84"Touch /Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator/ButtonTest.app337425086#337425086#0(0"0(0#0#0"8620722176#468"    cd /Users/mtiwari/Documents/ButtonTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/mtiwari/pkgs/wordnet/WordNet-3.0/installdir/bin/:/opt/jruby/bin:/Users/mtiwari/pkgs/scala/scala-2.9.0.1/bin"    /usr/bin/touch -c /Users/mtiwari/Documents/ButtonTest/build/Debug-iphonesimulator/ButtonTest.app0#
+
