@@ -24,8 +24,6 @@
 -(IBAction)record:(id)sender;
 -(IBAction)play:(id)sender;
 
-@property (nonatomic, retain) AVAudioPlayer *avPlayer;
-@property (nonatomic, retain) IBOutlet UIButton *recordButton;
 
 -(void)startRecording;
 -(void)playClip:(NSURL*)filename;

@@ -10,9 +10,6 @@
 
 @implementation Controller
 
-@synthesize avPlayer;
-
-
 
 -(IBAction)listen:(id)sender {
 	NSLog(@"listen");
@@ -22,7 +19,6 @@
 	NSURL *audioURL = [NSURL fileURLWithPath:tmpPath];
 	[self playClip:audioURL];
 }
-
 
 
 -(IBAction)record:(id)sender {
@@ -73,7 +69,6 @@
 
 -(void)dealloc {
 	[super dealloc];
-	[avPlayer release];
 	[recorder dealloc];
 	recorder = nil;
 	recordedTmpFile = nil;
