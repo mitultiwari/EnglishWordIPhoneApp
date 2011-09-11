@@ -26,5 +26,6 @@
 @property (nonatomic, retain) AVAudioPlayer *avPlayer;
 
 -(void)startRecording;
+-(void)playClip:(NSURL*)filename;
 
 @end

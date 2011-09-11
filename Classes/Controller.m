@@ -18,12 +18,9 @@
 	NSLog(@"listen");
 	NSString *resFilename = @"about.wav";
 	NSString *tmpPath = [[NSBundle mainBundle] pathForResource:resFilename ofType:nil];
-	
+
 	NSURL *audioURL = [NSURL fileURLWithPath:tmpPath];
-	AVAudioPlayer *avPlayerObj = [AVAudioPlayer alloc];
-	self.avPlayer = [avPlayerObj initWithContentsOfURL:audioURL error:nil];
-	[avPlayer play];
-	
+	[self playClip:audioURL];
 }
 
 
@@ -66,7 +63,11 @@
 
 -(IBAction)play:(id)sender {
 	NSLog(@"play");
-	AVAudioPlayer * myPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:recordedTmpFile error:&error];
+	[self playClip:recordedTmpFile];
+}
+
+-(void)playClip:(NSURL*)filename {
+	AVAudioPlayer * myPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:filename error:&error];
 	[myPlayer prepareToPlay];
 	[myPlayer play];
 }
