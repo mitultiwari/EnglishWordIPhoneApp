@@ -6,13 +6,16 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
+#include<stdlib.h>
+
 #import "Controller.h"
 
 @implementation Controller
 
 -(IBAction)listen:(id)sender {
 	NSLog(@"listen");
-	NSString *resFilename = @"about.wav";
+	NSString *word = [[NSArray arrayWithObjects:words count:9] objectAtIndex:arc4random()%9];
+	NSString *resFilename = [word stringByAppendingString:@".wav"];
 	NSString *tmpPath = [[NSBundle mainBundle] pathForResource:resFilename ofType:nil];
 
 	NSURL *audioURL = [NSURL fileURLWithPath:tmpPath];
