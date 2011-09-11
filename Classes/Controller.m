@@ -33,14 +33,15 @@
 	[audioSession setActive:YES error: &error];
 	
 	if(recording){
-		NSLog(@"Recording stop");
+		NSLog(@"Recording stopped");
 		recording = NO;
+		[recordButton setTitle:@"record" forState: UIControlStateNormal];
 		[recorder stop];
-		
 	}
 	else{
-		NSLog(@"Recording start");
+		NSLog(@"Recording started");
 		recording = YES;
+		[recordButton setTitle:@"stop" forState: UIControlStateNormal];
 		[self startRecording];
 	}
 }
