@@ -14,7 +14,7 @@
 
 -(IBAction)listen:(id)sender {
 	NSLog(@"listen");
-	NSString *word = [[NSArray arrayWithObjects:words count:9] objectAtIndex:arc4random()%9];
+	NSString *word = [[NSArray arrayWithObjects:words count:10] objectAtIndex:arc4random()%10];
 	NSString *resFilename = [word stringByAppendingString:@".wav"];
 	NSString *tmpPath = [[NSBundle mainBundle] pathForResource:resFilename ofType:nil];
 
