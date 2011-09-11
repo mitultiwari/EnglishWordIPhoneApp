@@ -25,4 +25,6 @@
 
 @property (nonatomic, retain) AVAudioPlayer *avPlayer;
 
+-(void)startRecording;
+
 @end

@@ -40,28 +40,29 @@
 	
 	if(recording){
 		recording = NO;
-		NSLog(@"Used File called: %@",recordedTmpFile);
 		[recorder stop];
 	}
 	else{
 		recording = YES;
-		
-		NSMutableDictionary* recordSetting = [[NSMutableDictionary alloc] init];
-		[recordSetting setValue :[NSNumber numberWithInt:kAudioFormatAppleIMA4] forKey:AVFormatIDKey];
-		[recordSetting setValue:[NSNumber numberWithFloat:44100.0] forKey:AVSampleRateKey]; 
-		[recordSetting setValue:[NSNumber numberWithInt: 2] forKey:AVNumberOfChannelsKey];
-		
-		recordedTmpFile = [NSURL fileURLWithPath:[NSTemporaryDirectory() stringByAppendingPathComponent: [NSString stringWithFormat: @"%.0f.%@", [NSDate timeIntervalSinceReferenceDate] * 1000.0, @"caf"]]];
-		NSLog(@"Using File called: %@",recordedTmpFile);
-		
-		recorder = [[ AVAudioRecorder alloc] initWithURL:recordedTmpFile settings:recordSetting error:&error];
-		[recorder setDelegate:self];
-		[recorder prepareToRecord];
-		[recorder record];
-		NSLog(@"Recording");
+		[self startRecording];
 	}
 }
 
+-(void)startRecording {
+	NSMutableDictionary* recordSetting = [[NSMutableDictionary alloc] init];
+	[recordSetting setValue :[NSNumber numberWithInt:kAudioFormatAppleIMA4] forKey:AVFormatIDKey];
+	[recordSetting setValue:[NSNumber numberWithFloat:44100.0] forKey:AVSampleRateKey]; 
+	[recordSetting setValue:[NSNumber numberWithInt: 2] forKey:AVNumberOfChannelsKey];
+
+	recordedTmpFile = [NSURL fileURLWithPath:[NSTemporaryDirectory() stringByAppendingPathComponent: [NSString stringWithFormat: @"%.0f.%@", [NSDate timeIntervalSinceReferenceDate] * 1000.0, @"caf"]]];
+	NSLog(@"Using File called: %@",recordedTmpFile);
+
+	recorder = [[ AVAudioRecorder alloc] initWithURL:recordedTmpFile settings:recordSetting error:&error];
+	[recorder setDelegate:self];
+	[recorder prepareToRecord];
+	[recorder record];
+	NSLog(@"Recording");
+}
 
 -(IBAction)play:(id)sender {
 	NSLog(@"play");
