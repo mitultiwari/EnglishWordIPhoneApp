@@ -6,6 +6,7 @@
 
 -(id)init {
     if (self = [super init]) {
+		recorder2 = [[Recorder alloc] init];
         [self newWord:nil];
         AVAudioSession * audioSession = [AVAudioSession sharedInstance];
         //Setup the audioSession for playback and record.
@@ -78,6 +79,7 @@
     [super dealloc];
     [recorder dealloc];
     recorder = nil;
+	[recorder2 dealloc];
     recordedTmpFile = nil;
 }
 

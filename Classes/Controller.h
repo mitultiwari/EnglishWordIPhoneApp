@@ -4,12 +4,15 @@
 #import <AVFoundation/AVAudioPlayer.h>
 #import <CoreAudio/CoreAudioTypes.h>
 
+#import "Recorder.h"
+
 static const NSString *words[] = {@"about", @"baby", @"character", @"children", @"decimal", @"dictionary", @"doctor", @"pronunciation", @"salmagundi", @"wednesday", nil};
 
 @interface Controller : NSObject <AVAudioRecorderDelegate> {
     NSString *currWord;
     NSURL *recordedTmpFile;
     AVAudioRecorder *recorder;
+	Recorder *recorder2;
     NSError *error;
     BOOL recording; // NO => not recording; YES: recording
     IBOutlet UIButton *recordButton;
