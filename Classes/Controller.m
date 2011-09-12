@@ -4,9 +4,18 @@
 
 @implementation Controller
 
+-(id)init {
+	if (self = [super init]) {
+		[self newWord:nil];
+	}
+	return self;
+}
+
 -(IBAction)newWord:(id)sender {
+	NSLog(@"%@", self);
 	currWord = [[NSArray arrayWithObjects:words count:10] objectAtIndex:arc4random()%10];
 	NSLog(@"new word %@", currWord);
+	NSLog(@"display %@", display);
 	[display setText:currWord];
 	[self listen:nil];
 }
