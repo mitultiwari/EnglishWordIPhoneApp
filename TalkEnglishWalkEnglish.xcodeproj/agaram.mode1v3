@@ -326,13 +326,13 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>5012EA1A141DC3B000147292</string>
+										<string>5092B03F141DCD3E0016D251</string>
 										<key>history</key>
 										<array>
 											<string>5012E9F6141DC14100147292</string>
-											<string>5012E9F7141DC14100147292</string>
-											<string>5012E9F8141DC14100147292</string>
-											<string>5012E9F9141DC14100147292</string>
+											<string>5019109F141DCC8D00D27F19</string>
+											<string>5092B039141DCD3E0016D251</string>
+											<string>5092B03A141DCD3E0016D251</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -344,14 +344,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {839, 457}}</string>
+								<string>{{0, 0}, {839, 443}}</string>
 								<key>RubberWindowFrame</key>
 								<string>147 55 1047 723 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>457pt</string>
+							<string>443pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -364,14 +364,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 462}, {839, 220}}</string>
+								<string>{{0, 448}, {839, 234}}</string>
 								<key>RubberWindowFrame</key>
 								<string>147 55 1047 723 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>220pt</string>
+							<string>234pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -390,9 +390,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>5012E9B4141DBE2900147292</string>
+				<string>5092B03C141DCD3E0016D251</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>5012E9B5141DBE2900147292</string>
+				<string>5092B03D141DCD3E0016D251</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -530,14 +530,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>5012E9ED141DC02C00147292</string>
-		<string>5012E9D9141DBEF700147292</string>
-		<string>5012E9CC141DBEAF00147292</string>
-		<string>5012E9C9141DBEAF00147292</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>50CF4BF4141CB4C4004EF814</string>
 		<string>/Users/agaram/Desktop/TalkEnglishWalkEnglish/TalkEnglishWalkEnglish.xcodeproj</string>
-		<string>1C78EAAD065D492600B07095</string>
 	</array>
 	<key>WindowString</key>
 	<string>147 55 1047 723 0 0 1280 778 </string>
@@ -617,7 +611,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>50CF4BF4141CB4C4004EF814</string>
-				<string>5012E9B6141DBE2900147292</string>
+				<string>5092B03E141DCD3E0016D251</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -739,13 +733,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>5012E9B7141DBE2900147292</string>
+				<string>50191061141DC99800D27F19</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>5012E9B8141DBE2900147292</string>
-				<string>5012E9B9141DBE2900147292</string>
-				<string>5012E9BA141DBE2900147292</string>
-				<string>5012E9BB141DBE2900147292</string>
-				<string>5012E9BC141DBE2900147292</string>
+				<string>50191062141DC99800D27F19</string>
+				<string>50191063141DC99800D27F19</string>
+				<string>50191064141DC99800D27F19</string>
+				<string>50191065141DC99800D27F19</string>
+				<string>50191066141DC99800D27F19</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -909,7 +903,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>5012E9BD141DBE2900147292</string>
+				<string>50191067141DC99800D27F19</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

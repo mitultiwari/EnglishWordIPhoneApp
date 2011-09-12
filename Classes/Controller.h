@@ -4,6 +4,8 @@
 #import <AVFoundation/AVAudioPlayer.h>
 #import <CoreAudio/CoreAudioTypes.h>
 
+static const NSString *words[] = {@"about", @"baby", @"character", @"children", @"decimal", @"dictionary", @"doctor", @"pronunciation", @"salmagundi", @"wednesday", nil};
+
 @interface Controller : NSObject <AVAudioRecorderDelegate> {
 	NSString *currWord;
 	NSURL *recordedTmpFile;

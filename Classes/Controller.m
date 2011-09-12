@@ -5,8 +5,7 @@
 @implementation Controller
 
 -(IBAction)newWord:(id)sender {
-	NSString *words[] = {@"about", @"baby", @"character", @"children", @"decimal", @"dictionary", @"doctor", @"pronunciation", @"salmagundi", @"wednesday", nil};
-	currWord = nil; //[[NSArray arrayWithObjects:words count:10] objectAtIndex:arc4random()%10];
+	currWord = [[NSArray arrayWithObjects:words count:10] objectAtIndex:arc4random()%10];
 	NSLog(@"new word %@", currWord);
 	[display setText:currWord];
 }
@@ -14,9 +13,7 @@
 -(IBAction)listen:(id)sender {
 	NSLog(@"listen: %@", currWord);
 	NSString *resFilename = [currWord stringByAppendingString:@".wav"];
-	NSLog(@"AAA: %@", resFilename);
 	NSString *tmpPath = [[NSBundle mainBundle] pathForResource:resFilename ofType:nil];
-	NSLog(@"BBB: %@", tmpPath);
 	NSURL *audioURL = [NSURL fileURLWithPath:tmpPath];
 	[self playClip:audioURL];
 }
