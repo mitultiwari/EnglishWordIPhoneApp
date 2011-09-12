@@ -15,16 +15,19 @@
 static const NSString *words[] = {@"about", @"baby", @"character", @"children", @"decimal", @"dictionary", @"doctor", @"pronunciation", @"salmagundi", @"wednesday", nil};
 
 @interface Controller : NSObject <AVAudioRecorderDelegate> {
-	NSURL * recordedTmpFile;
-	AVAudioRecorder * recorder;
-	NSError * error;
+	NSString *currWord;
+	NSURL *recordedTmpFile;
+	AVAudioRecorder *recorder;
+	NSError *error;
 	BOOL recording; // NO => not recording; YES: recording
 	IBOutlet UIButton *recordButton;
+	IBOutlet UITextView *display;
 }
 
--(IBAction)listen:(id)sender;
+-(IBAction)newWord:(id)sender;
 -(IBAction)record:(id)sender;
 -(IBAction)play:(id)sender;
+-(IBAction)listen:(id)sender;
 
 -(void)startRecording;
 -(void)playClip:(NSURL*)filename;

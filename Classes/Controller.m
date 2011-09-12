@@ -12,10 +12,15 @@
 
 @implementation Controller
 
+-(IBAction)newWord:(id)sender {
+	currWord = [[NSArray arrayWithObjects:words count:10] objectAtIndex:arc4random()%10];
+	NSLog(@"new word %s", currWord);
+	[display setText:currWord];
+}
+
 -(IBAction)listen:(id)sender {
 	NSLog(@"listen");
-	NSString *word = [[NSArray arrayWithObjects:words count:10] objectAtIndex:arc4random()%10];
-	NSString *resFilename = [word stringByAppendingString:@".wav"];
+	NSString *resFilename = [currWord stringByAppendingString:@".wav"];
 	NSString *tmpPath = [[NSBundle mainBundle] pathForResource:resFilename ofType:nil];
 
 	NSURL *audioURL = [NSURL fileURLWithPath:tmpPath];
