@@ -19,6 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
 	controller = [Controller alloc];
+	[controller newWord:nil];
     [self.window makeKeyAndVisible];
     
     return YES;
@@ -75,6 +76,7 @@
 
 - (void)dealloc {
     [window release];
+	[controller release];
     [super dealloc];
 }
 
