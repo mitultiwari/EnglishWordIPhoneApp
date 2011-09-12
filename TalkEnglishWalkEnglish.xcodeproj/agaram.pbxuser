@@ -92,6 +92,13 @@
 			505D1B29141E81410060BBC8 /* PBXTextBookmark */ = 505D1B29141E81410060BBC8 /* PBXTextBookmark */;
 			505D1B2A141E81410060BBC8 /* PBXTextBookmark */ = 505D1B2A141E81410060BBC8 /* PBXTextBookmark */;
 			505D1B2B141E81410060BBC8 /* PBXTextBookmark */ = 505D1B2B141E81410060BBC8 /* PBXTextBookmark */;
+			505D1B33141E81C00060BBC8 /* PBXTextBookmark */ = 505D1B33141E81C00060BBC8 /* PBXTextBookmark */;
+			505D1B34141E81C00060BBC8 /* XCBuildMessageTextBookmark */ = 505D1B34141E81C00060BBC8 /* XCBuildMessageTextBookmark */;
+			505D1B35141E81C00060BBC8 /* PBXTextBookmark */ = 505D1B35141E81C00060BBC8 /* PBXTextBookmark */;
+			505D1B38141E81CE0060BBC8 /* PBXTextBookmark */ = 505D1B38141E81CE0060BBC8 /* PBXTextBookmark */;
+			505D1B39141E81CE0060BBC8 /* PBXTextBookmark */ = 505D1B39141E81CE0060BBC8 /* PBXTextBookmark */;
+			505D1B3A141E81CE0060BBC8 /* XCBuildMessageTextBookmark */ = 505D1B3A141E81CE0060BBC8 /* XCBuildMessageTextBookmark */;
+			505D1B3B141E81CE0060BBC8 /* PBXTextBookmark */ = 505D1B3B141E81CE0060BBC8 /* PBXTextBookmark */;
 			50C421F4141E784800A876A3 = 50C421F4141E784800A876A3 /* PBXTextBookmark */;
 			50F59905141DDA6000B543C1 = 50F59905141DDA6000B543C1 /* PBXTextBookmark */;
 			50F59919141DDB2B00B543C1 = 50F59919141DDB2B00B543C1 /* PBXTextBookmark */;
@@ -181,7 +188,7 @@
 		fRef = 655F25CB141CA4D700BB9FD1 /* Controller.m */;
 		name = "Controller.m: 68";
 		rLen = 0;
-		rLoc = 2132;
+		rLoc = 1324;
 		rType = 0;
 		vrLen = 1145;
 		vrLoc = 1221;
@@ -191,17 +198,85 @@
 		fRef = 655F25CB141CA4D700BB9FD1 /* Controller.m */;
 		name = "Controller.m: 68";
 		rLen = 0;
-		rLoc = 2117;
+		rLoc = 1324;
 		rType = 0;
 		vrLen = 651;
 		vrLoc = 1775;
+	};
+	505D1B33141E81C00060BBC8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 655F25CA141CA4D700BB9FD1 /* Controller.h */;
+		name = "Controller.h: 9";
+		rLen = 0;
+		rLoc = 212;
+		rType = 0;
+		vrLen = 732;
+		vrLoc = 0;
+	};
+	505D1B34141E81C00060BBC8 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'recordedTmpFile' undeclared (first use in this function)";
+		fRef = 655F25CB141CA4D700BB9FD1 /* Controller.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 62;
+		rType = 1;
+	};
+	505D1B35141E81C00060BBC8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 655F25CB141CA4D700BB9FD1 /* Controller.m */;
+		name = "Controller.m: 64";
+		rLen = 0;
+		rLoc = 1560;
+		rType = 0;
+		vrLen = 521;
+		vrLoc = 1087;
+	};
+	505D1B38141E81CE0060BBC8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 655F25CA141CA4D700BB9FD1 /* Controller.h */;
+		name = "Controller.h: 25";
+		rLen = 0;
+		rLoc = 763;
+		rType = 0;
+		vrLen = 803;
+		vrLoc = 0;
+	};
+	505D1B39141E81CE0060BBC8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 505D1AFE141E7ACC0060BBC8 /* Recorder.h */;
+		name = "Recorder.h: 15";
+		rLen = 0;
+		rLoc = 372;
+		rType = 0;
+		vrLen = 554;
+		vrLoc = 0;
+	};
+	505D1B3A141E81CE0060BBC8 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'recordedTmpFile' undeclared (first use in this function)";
+		fRef = 655F25CB141CA4D700BB9FD1 /* Controller.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 62;
+		rType = 1;
+	};
+	505D1B3B141E81CE0060BBC8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 655F25CB141CA4D700BB9FD1 /* Controller.m */;
+		name = "Controller.m: 63";
+		rLen = 0;
+		rLoc = 1560;
+		rType = 0;
+		vrLen = 653;
+		vrLoc = 910;
 	};
 	50C421F4141E784800A876A3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 655F25CB141CA4D700BB9FD1 /* Controller.m */;
 		name = "Controller.m: 85";
 		rLen = 0;
-		rLoc = 2225;
+		rLoc = 1416;
 		rType = 0;
 		vrLen = 911;
 		vrLoc = 0;
@@ -288,7 +363,7 @@
 		fRef = 655F25CA141CA4D700BB9FD1 /* Controller.h */;
 		name = "Controller.h: 22";
 		rLen = 0;
-		rLoc = 800;
+		rLoc = 740;
 		rType = 0;
 		vrLen = 821;
 		vrLoc = 0;
@@ -298,23 +373,24 @@
 		fRef = 655F25CB141CA4D700BB9FD1 /* Controller.m */;
 		name = "Controller.m: 18";
 		rLen = 0;
-		rLoc = 182;
+		rLoc = 181;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 19;
 	};
 	655F25CA141CA4D700BB9FD1 /* Controller.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {598, 442}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1202, 364}}";
 			sepNavSelRange = "{212, 0}";
-			sepNavVisRange = "{0, 700}";
+			sepNavVisRange = "{0, 732}";
+			sepNavWindowFrame = "{{15, 0}, {875, 778}}";
 		};
 	};
 	655F25CB141CA4D700BB9FD1 /* Controller.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1419, 1079}}";
-			sepNavSelRange = "{2117, 0}";
-			sepNavVisRange = "{1775, 651}";
+			sepNavIntBoundsRect = "{{0, 0}, {778, 858}}";
+			sepNavSelRange = "{1560, 0}";
+			sepNavVisRange = "{910, 653}";
 			sepNavWindowFrame = "{{15, 0}, {875, 778}}";
 		};
 	};

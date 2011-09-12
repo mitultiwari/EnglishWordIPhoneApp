@@ -6,7 +6,7 @@
 
 -(id)init {
     if (self = [super init]) {
-		recorder2 = [[Recorder alloc] init];
+		recorder = [[Recorder alloc] init];
         [self newWord:nil];
     }
     return self;
@@ -35,37 +35,22 @@
         NSLog(@"Recording stopped");
         recording = NO;
         [recordButton setTitle:@"record" forState: UIControlStateNormal];
-        [recorder2 stop];
+        [recorder stop];
     }
     else{
         NSLog(@"Recording started");
         recording = YES;
         [recordButton setTitle:@"stop" forState: UIControlStateNormal];
-        [recorder2 start];
+        [recorder start];
     }
-}
-
--(void)startRecording {
-    NSMutableDictionary* recordSetting = [[NSMutableDictionary alloc] init];
-    [recordSetting setValue :[NSNumber numberWithInt:kAudioFormatAppleIMA4] forKey:AVFormatIDKey];
-    [recordSetting setValue:[NSNumber numberWithFloat:44100.0] forKey:AVSampleRateKey];
-    [recordSetting setValue:[NSNumber numberWithInt: 2] forKey:AVNumberOfChannelsKey];
-
-    recordedTmpFile = [NSURL fileURLWithPath:[NSTemporaryDirectory() stringByAppendingPathComponent: [NSString stringWithFormat: @"%.0f.%@", [NSDate timeIntervalSinceReferenceDate] * 1000.0, @"caf"]]];
-
-    recorder = [[ AVAudioRecorder alloc] initWithURL:recordedTmpFile settings:recordSetting error:&error];
-    [recorder setDelegate:self];
-    [recorder prepareToRecord];
-    [recorder record];
 }
 
 -(IBAction)play:(id)sender {
     NSLog(@"play");
-    [self playClip:recorder2.recordedFile];
+    [self playClip:recorder.recordedFile];
 }
 
 -(void)playClip:(NSURL*)filename {
-	NSLog(@"p: %@", filename);
     AVAudioPlayer * myPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:filename error:&error];
     [myPlayer prepareToPlay];
     [myPlayer play];
@@ -75,8 +60,6 @@
     [super dealloc];
     [recorder dealloc];
     recorder = nil;
-	[recorder2 dealloc];
-    recordedTmpFile = nil;
 }
 
 @end

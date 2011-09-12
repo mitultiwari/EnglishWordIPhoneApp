@@ -10,9 +10,7 @@ static const NSString *words[] = {@"about", @"baby", @"character", @"children", 
 
 @interface Controller : NSObject <AVAudioRecorderDelegate> {
     NSString *currWord;
-    NSURL *recordedTmpFile;
-    AVAudioRecorder *recorder;
-	Recorder *recorder2;
+	Recorder *recorder;
     NSError *error;
     BOOL recording; // NO => not recording; YES: recording
     IBOutlet UIButton *recordButton;
@@ -24,7 +22,6 @@ static const NSString *words[] = {@"about", @"baby", @"character", @"children", 
 -(IBAction)play:(id)sender;
 -(IBAction)listen:(id)sender;
 
--(void)startRecording;
 -(void)playClip:(NSURL*)filename;
 
 @end
