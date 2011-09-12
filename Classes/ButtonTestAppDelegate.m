@@ -1,11 +1,3 @@
-//
-//  ButtonTestAppDelegate.m
-//  ButtonTest
-//
-//  Created by Mitul Tiwari on 9/11/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
-//
-
 #import "ButtonTestAppDelegate.h"
 
 @implementation ButtonTestAppDelegate

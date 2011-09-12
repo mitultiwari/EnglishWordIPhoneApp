@@ -1,18 +1,8 @@
-//
-//  Controller.h
-//  ButtonTest
-//
-//  Created by Mitul Tiwari on 9/11/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 #import <AVFoundation/AVFoundation.h>
 #import <AVFoundation/AVAudioRecorder.h>
 #import <AVFoundation/AVAudioPlayer.h>
 #import <CoreAudio/CoreAudioTypes.h>
-
-static const NSString *words[] = {@"about", @"baby", @"character", @"children", @"decimal", @"dictionary", @"doctor", @"pronunciation", @"salmagundi", @"wednesday", nil};
 
 @interface Controller : NSObject <AVAudioRecorderDelegate> {
 	NSString *currWord;

@@ -1,11 +1,3 @@
-//
-//  Controller.m
-//  ButtonTest
-//
-//  Created by Mitul Tiwari on 9/11/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
-//
-
 #include<stdlib.h>
 
 #import "Controller.h"
@@ -13,16 +5,18 @@
 @implementation Controller
 
 -(IBAction)newWord:(id)sender {
-	currWord = [[NSArray arrayWithObjects:words count:10] objectAtIndex:arc4random()%10];
-	NSLog(@"new word %s", currWord);
+	NSString *words[] = {@"about", @"baby", @"character", @"children", @"decimal", @"dictionary", @"doctor", @"pronunciation", @"salmagundi", @"wednesday", nil};
+	currWord = nil; //[[NSArray arrayWithObjects:words count:10] objectAtIndex:arc4random()%10];
+	NSLog(@"new word %@", currWord);
 	[display setText:currWord];
 }
 
 -(IBAction)listen:(id)sender {
-	NSLog(@"listen");
+	NSLog(@"listen: %@", currWord);
 	NSString *resFilename = [currWord stringByAppendingString:@".wav"];
+	NSLog(@"AAA: %@", resFilename);
 	NSString *tmpPath = [[NSBundle mainBundle] pathForResource:resFilename ofType:nil];
-
+	NSLog(@"BBB: %@", tmpPath);
 	NSURL *audioURL = [NSURL fileURLWithPath:tmpPath];
 	[self playClip:audioURL];
 }
