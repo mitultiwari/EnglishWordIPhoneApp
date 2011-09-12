@@ -13,13 +13,14 @@
 #import <CoreAudio/CoreAudioTypes.h>
 
 @interface Recorder : NSObject {
-    NSURL *recordedTmpFile;
+    NSURL *recordedFile;
     AVAudioRecorder *recorder;
     NSError *error;
 }
 
 -(void)start;
 -(void)stop;
--(NSURL*)recordedFile;
+
+@property (retain) NSURL *recordedFile;
 
 @end

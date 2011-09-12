@@ -10,16 +10,23 @@
 
 @implementation Recorder
 
+@synthesize recordedFile;
+
 -(id)init {
+	if (self = [super init]) {
+        AVAudioSession * audioSession = [AVAudioSession sharedInstance];
+        //Setup the audioSession for playback and record.
+        [audioSession setCategory:AVAudioSessionCategoryPlayAndRecord error: &error];
+        //Activate the session
+        [audioSession setActive:YES error: &error];
+	}
+	return self;
 }
 
 -(void)start {
 }
 
 -(void)stop {
-}
-
--(NSString*)recordedFile {
 }
 
 @end
