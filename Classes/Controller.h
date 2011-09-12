@@ -7,13 +7,13 @@
 static const NSString *words[] = {@"about", @"baby", @"character", @"children", @"decimal", @"dictionary", @"doctor", @"pronunciation", @"salmagundi", @"wednesday", nil};
 
 @interface Controller : NSObject <AVAudioRecorderDelegate> {
-	NSString *currWord;
-	NSURL *recordedTmpFile;
-	AVAudioRecorder *recorder;
-	NSError *error;
-	BOOL recording; // NO => not recording; YES: recording
-	IBOutlet UIButton *recordButton;
-	IBOutlet UITextView *display;
+    NSString *currWord;
+    NSURL *recordedTmpFile;
+    AVAudioRecorder *recorder;
+    NSError *error;
+    BOOL recording; // NO => not recording; YES: recording
+    IBOutlet UIButton *recordButton;
+    IBOutlet UITextView *display;
 }
 
 -(IBAction)newWord:(id)sender;
