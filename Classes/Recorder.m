@@ -30,7 +30,6 @@
 	[recordSetting setValue:[NSNumber numberWithInt: 2] forKey:AVNumberOfChannelsKey];
 	
 	recordedFile = [NSURL fileURLWithPath:[NSTemporaryDirectory() stringByAppendingPathComponent: [NSString stringWithFormat: @"%.0f.%@", [NSDate timeIntervalSinceReferenceDate] * 1000.0, @"caf"]]];
-	NSLog(@"r: %@", recordedFile);
 
 	recorder = [[ AVAudioRecorder alloc] initWithURL:recordedFile settings:recordSetting error:&error];
 	[recorder setDelegate:self];
@@ -40,6 +39,13 @@
 
 -(void)stop {
 	[recorder stop];
+}
+
+- (void)dealloc {
+	[recorder dealloc];
+	recorder = nil;
+	recordedFile = nil;
+	[super dealloc];
 }
 
 @end

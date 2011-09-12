@@ -1,14 +1,10 @@
 #import <Foundation/Foundation.h>
-#import <AVFoundation/AVFoundation.h>
-#import <AVFoundation/AVAudioRecorder.h>
-#import <AVFoundation/AVAudioPlayer.h>
-#import <CoreAudio/CoreAudioTypes.h>
 
 #import "Recorder.h"
 
 static const NSString *words[] = {@"about", @"baby", @"character", @"children", @"decimal", @"dictionary", @"doctor", @"pronunciation", @"salmagundi", @"wednesday", nil};
 
-@interface Controller : NSObject <AVAudioRecorderDelegate> {
+@interface Controller : UIViewController {
 	NSString *currWord;
 	Recorder *recorder;
 	NSError *error;
