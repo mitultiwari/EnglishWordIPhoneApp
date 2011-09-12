@@ -35,13 +35,13 @@
         NSLog(@"Recording stopped");
         recording = NO;
         [recordButton setTitle:@"record" forState: UIControlStateNormal];
-        [recorder stop];
+        [recorder2 stop];
     }
     else{
         NSLog(@"Recording started");
         recording = YES;
         [recordButton setTitle:@"stop" forState: UIControlStateNormal];
-        [self startRecording];
+        [recorder2 start];
     }
 }
 
@@ -61,10 +61,11 @@
 
 -(IBAction)play:(id)sender {
     NSLog(@"play");
-    [self playClip:recordedTmpFile];
+    [self playClip:recorder2.recordedFile];
 }
 
 -(void)playClip:(NSURL*)filename {
+	NSLog(@"p: %@", filename);
     AVAudioPlayer * myPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:filename error:&error];
     [myPlayer prepareToPlay];
     [myPlayer play];

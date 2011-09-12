@@ -12,7 +12,7 @@
 #import <AVFoundation/AVAudioPlayer.h>
 #import <CoreAudio/CoreAudioTypes.h>
 
-@interface Recorder : NSObject {
+@interface Recorder : NSObject <AVAudioRecorderDelegate> {
     NSURL *recordedFile;
     AVAudioRecorder *recorder;
     NSError *error;
