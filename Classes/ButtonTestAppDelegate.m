@@ -3,13 +3,15 @@
 @implementation ButtonTestAppDelegate
 
 @synthesize window;
-
+@synthesize controller;
 
 #pragma mark -
 #pragma mark Application lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
+	controller = [Controller alloc];
+	[controller newWord:nil];
     [self.window makeKeyAndVisible];
     
     return YES;
