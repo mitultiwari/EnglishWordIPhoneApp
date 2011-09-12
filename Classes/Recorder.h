@@ -13,9 +13,9 @@
 #import <CoreAudio/CoreAudioTypes.h>
 
 @interface Recorder : NSObject <AVAudioRecorderDelegate> {
-    NSURL *recordedFile;
-    AVAudioRecorder *recorder;
-    NSError *error;
+	NSURL *recordedFile;
+	AVAudioRecorder *recorder;
+	NSError *error;
 }
 
 -(void)start;

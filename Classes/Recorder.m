@@ -14,28 +14,28 @@
 
 -(id)init {
 	if (self = [super init]) {
-        AVAudioSession * audioSession = [AVAudioSession sharedInstance];
-        //Setup the audioSession for playback and record.
-        [audioSession setCategory:AVAudioSessionCategoryPlayAndRecord error: &error];
-        //Activate the session
-        [audioSession setActive:YES error: &error];
+		AVAudioSession * audioSession = [AVAudioSession sharedInstance];
+		//Setup the audioSession for playback and record.
+		[audioSession setCategory:AVAudioSessionCategoryPlayAndRecord error: &error];
+		//Activate the session
+		[audioSession setActive:YES error: &error];
 	}
 	return self;
 }
 
 -(void)start {
 	NSMutableDictionary* recordSetting = [[NSMutableDictionary alloc] init];
-    [recordSetting setValue :[NSNumber numberWithInt:kAudioFormatAppleIMA4] forKey:AVFormatIDKey];
-    [recordSetting setValue:[NSNumber numberWithFloat:44100.0] forKey:AVSampleRateKey];
-    [recordSetting setValue:[NSNumber numberWithInt: 2] forKey:AVNumberOfChannelsKey];
+	[recordSetting setValue :[NSNumber numberWithInt:kAudioFormatAppleIMA4] forKey:AVFormatIDKey];
+	[recordSetting setValue:[NSNumber numberWithFloat:44100.0] forKey:AVSampleRateKey];
+	[recordSetting setValue:[NSNumber numberWithInt: 2] forKey:AVNumberOfChannelsKey];
 	
-    recordedFile = [NSURL fileURLWithPath:[NSTemporaryDirectory() stringByAppendingPathComponent: [NSString stringWithFormat: @"%.0f.%@", [NSDate timeIntervalSinceReferenceDate] * 1000.0, @"caf"]]];
+	recordedFile = [NSURL fileURLWithPath:[NSTemporaryDirectory() stringByAppendingPathComponent: [NSString stringWithFormat: @"%.0f.%@", [NSDate timeIntervalSinceReferenceDate] * 1000.0, @"caf"]]];
 	NSLog(@"r: %@", recordedFile);
 
-    recorder = [[ AVAudioRecorder alloc] initWithURL:recordedFile settings:recordSetting error:&error];
-    [recorder setDelegate:self];
-    [recorder prepareToRecord];
-    [recorder record];
+	recorder = [[ AVAudioRecorder alloc] initWithURL:recordedFile settings:recordSetting error:&error];
+	[recorder setDelegate:self];
+	[recorder prepareToRecord];
+	[recorder record];
 }
 
 -(void)stop {

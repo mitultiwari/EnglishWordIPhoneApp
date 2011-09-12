@@ -9,12 +9,12 @@
 static const NSString *words[] = {@"about", @"baby", @"character", @"children", @"decimal", @"dictionary", @"doctor", @"pronunciation", @"salmagundi", @"wednesday", nil};
 
 @interface Controller : NSObject <AVAudioRecorderDelegate> {
-    NSString *currWord;
+	NSString *currWord;
 	Recorder *recorder;
-    NSError *error;
-    BOOL recording; // NO => not recording; YES: recording
-    IBOutlet UIButton *recordButton;
-    IBOutlet UITextView *display;
+	NSError *error;
+	BOOL recording; // NO => not recording; YES: recording
+	IBOutlet UIButton *recordButton;
+	IBOutlet UITextView *display;
 }
 
 -(IBAction)newWord:(id)sender;
