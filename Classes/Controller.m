@@ -13,12 +13,11 @@
 }
 
 -(IBAction)newWord:(id)sender {
-	NSLog(@"%@", self);
 	currWord = [[NSArray arrayWithObjects:words count:10] objectAtIndex:arc4random()%10];
 	NSLog(@"new word %@", currWord);
+	[self listen:nil];
 	NSLog(@"display %@", display);
 	[display setText:currWord];
-	[self listen:nil];
 }
 
 -(IBAction)listen:(id)sender {
